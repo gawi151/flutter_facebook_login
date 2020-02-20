@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<Null> _login() async {
     final FacebookLoginResult result =
-        await facebookSignIn.logIn(['email']);
+        await facebookSignIn.logIn(["email", "public_profile", "user_friends"]);
 
     switch (result.status) {
       case FacebookLoginStatus.loggedIn:

@@ -1,5 +1,6 @@
 name: facebook_login_example
 description: Demonstrates how to use the facebook_login plugin.
+version: 0.0.1
 
 dependencies:
   flutter:
